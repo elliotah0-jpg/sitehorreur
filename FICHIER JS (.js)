@@ -1,0 +1,21 @@
+const message = document.getElementById("message");
+const flash = document.getElementById("flash");
+
+const texts = [
+  "He is watching you.",
+  "You are not alone.",
+  "Don't look behind you Ciccada2",
+  "He's getting closer.",
+  "Too late find the answer."
+];
+
+let i = 0;
+setInterval(function) {
+   message.textContent = texts[i];
+   i = (i + 1) % texts.length;
+}, 3000);
+
+setInterval(function) {
+   message.textContent = textes[i];
+   i = (i + 1) % textes.length;
+}, 3000);
